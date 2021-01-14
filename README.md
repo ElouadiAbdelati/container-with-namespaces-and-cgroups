@@ -19,7 +19,7 @@ Vous devez installer un outil Cgroup avant
  sudo apt-get install libcgroup1 cgroup-tools
  
  ```
- 
+ ## Créer le conteneur
   afin de créer ce conteneur,veuillez exécuter le fichier clone existant dans le même répertoire avec les privilèges root via la commande suivante: 
 
 ```bash
@@ -30,7 +30,7 @@ Vous devez installer un outil Cgroup avant
    L'exécution de cette commande vous allez etre rédiger à un nouveau shell bash exécuter dans un espace de noms vraiement isolé , dont le root directory est le    répertoire Host,il appartient à deux cgroups:
   -le premier cgroupe limite la mémoire qui va etre utilisée par l'espace de noms
   -le deuxieme limite nombre de PIds à utiliser,càd il limite le nombre de processus à exécuter.
-  
+  ## Testez le conteneur
    Pour tester ces limitations,veuillez exécuter la commande ci-dessous :
    
 ```bash
