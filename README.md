@@ -14,11 +14,13 @@
   
  ## Installation
  Vous devez installer un outil Cgroup avant
-     ```bash
-    sudo apt-get install libcgroup1 cgroup-tools
+ 
+    ```bash
+      sudo apt-get install libcgroup1 cgroup-tools
      ```
  
 afin de créer ce conteneur,veuillez exécuter le fichier clone existant dans le même répertoire avec les privilèges root via la commande suivante: 
+
        ```bash
     sudo ./clone
     ```
@@ -30,9 +32,6 @@ L'exécution de cette commande vous allez etre rédiger à un nouveau shell bash
    
        ```bash
        ./testForMomery
-    ```
-   
-       ```bash
        ./testForpids
     ```
     
