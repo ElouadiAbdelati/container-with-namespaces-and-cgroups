@@ -5,7 +5,7 @@
 
 ## Préparation de l'environnement du nouveau conteneur
 
-Pour se faire,veuillez ouvrir un terminal dans le répertoire courant (IRISI2_KHADIM_Meriem_ELOUADI_Abdelati),puis exécuter la commande suivante :
+Pour se faire,veuillez ouvrir un terminal dans le répertoire  (Iirisi-container),puis exécuter la commande suivante :
  ```bash
         ./newRoot.sh
  ``` 
